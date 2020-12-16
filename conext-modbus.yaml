@@ -1,4 +1,0 @@
-- name: combox
-  type: tcp
-  host: 10.0.10.127
-  port: 502
