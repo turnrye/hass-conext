@@ -1,0 +1,38 @@
+elements:
+  - entity: sensor.mppt_array_voltage
+    style:
+      left: 70%
+      top: 10%
+    type: state-label
+  - entity: sensor.mppt_power_out_shadow
+    style:
+      left: 58%
+      top: 30%
+    type: state-label
+  - entity: sensor.conext_sw_battery_voltage
+    style:
+      left: 10%
+      top: 37%
+    type: state-label
+  - entity: sensor.conext_sw_charger_status
+    style:
+      left: 10%
+      top: 47%
+    type: state-label
+  - entity: sensor.conext_sw_inverter_status
+    style:
+      left: 50%
+      top: 59%
+    type: state-label
+  - entity: sensor.conext_sw_load_ac_power
+    style:
+      left: 70%
+      top: 47%
+    type: state-label
+  - entity: sensor.conext_sw_charge_dc_power
+    style:
+      left: 30%
+      top: 47%
+    type: state-label
+image: 'https://i.ibb.co/5LBLj9k/Workshop-Power.png'
+type: picture-elements
